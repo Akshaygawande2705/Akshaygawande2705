@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <body>
+ <h3>Contact Form</h3>
+ <form>
+    <label>UserName</label> <br>
+    <input type="text" name="username"><br><br>
+
+    <label>Password</label> <br>
+    <input type="password" name="password" placeholder="enter your password" > <br><br>
+
+    <label>EmailId</label> <br>
+    <input type="text" name="emailid"> <br><br>
+
+    <label>Mobile No</label> <br>
+    <input type="text" name="mobile"> <br><br>
+    <select>
+        <option>select ur plan</option>
+        <option value="personal">personal</option>
+        <option value="business">business</option>
+        <option value="premium">premium</option>
+    </select><br><br>
+    <textarea col="5" rows="3"></textarea> 
+    <p>select your gender</p>
+    <input type="radio" name="gender">male
+    <input type="radio" name="gender">female<br><br>
+    <p>please read all instruction carefully </p>
+    <input type="checkbox"> yes,i read it carefully<br>
+    <input type="submit" name="submit">
+
+ </form>
+
+</body>
+
+
+</head>
+
+
+
+</html>
